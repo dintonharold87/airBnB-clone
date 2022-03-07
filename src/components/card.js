@@ -7,12 +7,18 @@ export default function Card() {
       <img src={swimmer} alt="" className="swimmer"></img>
       <div className="card-stats">
         <img src={star} alt="" className="star"></img>
-        <span className="card-figure">5.0</span>
-        <span className="card-rating">(6) .</span>
-        <span className="card-country">USA</span>
+        <p>
+          <span className="card-figure">5.0</span>
+          <span className="card-rating">(6)</span>
+          <span className="card-ellipse">.</span>
+          <span className="card-country">USA</span>
+        </p>
       </div>
-      <p>Life lessons with Katie Zaferes</p>
-      <p>From $136 / person</p>
+      <p className="card-heading">Life lessons with Katie Zaferes</p>
+      <p>
+        <span className="card-paragraph">From $136</span>{" "}
+        <span className="card-body">/ person</span>
+      </p>
     </div>
   );
 }

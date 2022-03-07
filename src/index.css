@@ -66,32 +66,126 @@ code {
 
   color: #222222;
 }
-.swimmer{
+.swimmer {
   position: absolute;
-width: 176px;
-height: 235px;
-left: 37px;
-top: 521px;
+  width: 176px;
+  height: 235px;
+  left: 37px;
+  top: 521px;
 }
-.star{
+.star {
   position: absolute;
-width: 14px;
+  width: 14px;
+  height: 14px;
+  left: 36px;
+  top: 765px;
+
+  background: #fe395c;
+  border-radius: 0.5px;
+}
+.card-stats {
+  display: flex;
+}
+.card-figure {
+  position: absolute;
+  width: 18px;
+  height: 14px;
+  left: 52px;
+  top: 765px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
+
+  color: #222222;
+}
+.card-rating {
+  position: absolute;
+  width: 18px;
+  height: 14px;
+  left: 72px;
+  top: 765px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
+
+  color: #918e9b;
+}
+.card-ellipse {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  left: 92px;
+  top: 771px;
+
+  background: #918e9b;
+}
+.card-country {
+  position: absolute;
+  width: 23px;
+  height: 14px;
+  left: 96px;
+  top: 765px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
+
+  color: #918e9b;
+}
+.card-heading{
+  position: absolute;
+width: 175px;
+height: 14px;
+left: 37px;
+top: 787px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 110%;
+/* identical to box height, or 13px */
+
+
+color: #222222;
+
+
+}
+.card-paragraph{
+  position: absolute;
+width: 144px;
 height: 14px;
 left: 36px;
-top: 765px;
+top: 820px;
 
-background: #FE395C;
-border-radius: 0.5px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 110%;
+/* identical to box height, or 13px */
+
+
+color: #222222;
+
 }
-.card-stats{
-  display:flex;
-}
-.card-figure{
+.card-body{
   position: absolute;
-width: 18px;
+width: 144px;
 height: 14px;
-left: 52px;
-top: 765px;
+left: 100px;
+top: 820px;
 
 font-family: Poppins;
 font-style: normal;
