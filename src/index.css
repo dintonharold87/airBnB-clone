@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -47,8 +50,6 @@ code {
   font-size: 36px;
   line-height: 110%;
   /* identical to box height, or 40px */
-
-  color: #000000;
 }
 .hero-text {
   position: absolute;
@@ -133,7 +134,6 @@ code {
   height: 14px;
   left: 96px;
   top: 765px;
-
   font-family: Poppins;
   font-style: normal;
   font-weight: 300;
@@ -143,58 +143,47 @@ code {
 
   color: #918e9b;
 }
-.card-heading{
+.card-heading {
   position: absolute;
-width: 175px;
-height: 14px;
-left: 37px;
-top: 787px;
+  width: 175px;
+  height: 14px;
+  left: 37px;
+  top: 787px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: 300;
-font-size: 12px;
-line-height: 110%;
-/* identical to box height, or 13px */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
 
-
-color: #222222;
-
-
+  color: #222222;
 }
-.card-paragraph{
+.card-paragraph {
   position: absolute;
-width: 144px;
-height: 14px;
-left: 36px;
-top: 820px;
+  width: 144px;
+  height: 14px;
+  left: 36px;
+  top: 820px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 110%;
-/* identical to box height, or 13px */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 110%;
 
-
-color: #222222;
-
+  color: #222222;
 }
-.card-body{
+.card-body {
   position: absolute;
-width: 144px;
-height: 14px;
-left: 100px;
-top: 820px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 300;
-font-size: 12px;
-line-height: 110%;
-/* identical to box height, or 13px */
-
-
-color: #222222;
-
+  width: 144px;
+  height: 14px;
+  left: 100px;
+  top: 820px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  color: #222222;
 }

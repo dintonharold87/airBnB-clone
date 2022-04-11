@@ -7,7 +7,7 @@ import Hero from "./components/heroSection";
 import Card from "./components/card";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode className="container mx-auto ">
     <Navbar />
     <Hero />
     {/* <Card
