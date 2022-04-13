@@ -10,8 +10,10 @@ ReactDOM.render(
   <React.StrictMode className="container mx-auto ">
     <Navbar />
     <Hero />
+    {/* When passing images as props, we only include the name of the image and not the file path */}
+    {/* when passing non string values as props, we put them in braces with no */}
     <Card
-      img="./images/swimmer.png"
+      image="swimmer.png"
       figure="5.0"
       rating="(6)"
       cardheading="Life lessons with Katie Zaferes"
@@ -19,7 +21,7 @@ ReactDOM.render(
       alt="swimming"
     />
     <Card
-      img="./images/wedding-photography 1.png"
+      image="wedding-photography 1.png"
       figure="5.0"
       rating="(30)"
       cardheading="Learn wedding photography
@@ -28,7 +30,7 @@ ReactDOM.render(
       alt="wedding"
     />
     <Card
-      img="../images/mountainbike.png"
+      image="mountainbike.png"
       figure="4.8"
       rating="(2)"
       cardheading="Group Mountain Biking"

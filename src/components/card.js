@@ -2,8 +2,8 @@ import React from "react";
 
 import { IconContext } from "react-icons";
 import { FaStar } from "react-icons/fa";
-
-export default function Card({ img, alt, rating, figure, cardparagraph, cardheading }) {
+import img from "../images/swimmer.png"
+export default function Card({ image, alt, rating, figure, cardparagraph, cardheading }) {
  
   return (
     <IconContext.Provider value={{ color: "red", size: "0.5em" }}>
@@ -22,6 +22,7 @@ export default function Card({ img, alt, rating, figure, cardparagraph, cardhead
             >
               <div className="Frame4 inline-flex flex-col space-y-2.5 items-start justify-start">
                 <img
+                  // src={`../images/${image}`}
                   src={img}
                   className="image12 w-full h-60 rounded-lg"
                   alt={alt}
