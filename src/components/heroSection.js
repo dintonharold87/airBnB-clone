@@ -1,9 +1,13 @@
 import React from "react";
-import grid from "../images/Group 77.png";
+
 export default function Hero() {
   return (
     <section className="container mx-auto w-1/2 mt-4">
-      <img src={grid} alt="hero_section" className="max-w-full h-auto"></img>
+      <img
+        src={"../images/Group 77.png"}
+        alt="hero_section"
+        className="max-w-full h-auto"
+      ></img>
       <div className="Frame1 flex flex-col space-y-4 items-start justify-start mt-4">
         <p className="OnlineExperiences w-full text-4xl font-semibold leading-10">
           Online Experiences
