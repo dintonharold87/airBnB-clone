@@ -14,13 +14,18 @@ const dataElements = data.map((item) => {
   return (
     <Card
       key={item.id}
-      image={item.image}
-      figure={item.figure}
-      rating={item.rating}
-      cardheading={item.cardheading}
-      cardparagraph={item.cardparagraph}
-      alt={item.alt}
-      location={item.location}
+      // image={item.image}
+      // figure={item.figure}
+      // rating={item.rating}
+      // cardheading={item.cardheading}
+      // cardparagraph={item.cardparagraph}
+      // alt={item.alt}
+      // location={item.location}
+      // openSpots={item.openSpots}
+
+
+      // a new prop called item
+      item={item}
     />
   );
 });
